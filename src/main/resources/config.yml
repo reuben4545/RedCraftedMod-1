@@ -14,11 +14,10 @@ server:
   # All players who show up as owner
   owners:
     - RedEastWood
-    - xXGoldyPlaysMCXx
     
   # All players who show up as co-owner
   coowners:
-    - 
+    - xXGoldyPlaysMCXx
 
   # All players who show up as executive
   execs:

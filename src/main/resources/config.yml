@@ -1,34 +1,29 @@
 #
-# UnraveledMCMod Configuration
-# by Madgeek1450, Prozza, and CreeperSeth
+# RedCrafted-Mod Configuration
+# by Madgeek1450, Prozza, CreeperSeth, decyj145 and SaltShaker53
 #
 
 # Generic server information
 server:
   # You should change this to your server's name
-  name: UnraveledMC
+  name: RedCrafted
 
   # The address your server is located at. Please do not include the port.
-  address: play.unraveledmc.com
+  address: play.redcrafted.com
 
   # All players who show up as owner
   owners:
-    - AwesomePinch
-    - aggelosQQ
-    - UnraveledMC
-
+    - RedEastWood
+    - xXGoldyPlaysMCXx
+    
   # All players who show up as co-owner
   coowners:
-    - CreeperSeth
+    - 
 
   # All players who show up as executive
   execs:
-    - AwesomePinch
-    - aggelosQQ
-    - CreeperSeth
-    - Dusty01_
-    - Typhlosion147
-    - OxLemonxO
+    - decyj145
+    - SaltShaker53
     
   # All players who show up as president
   pres:
@@ -41,10 +36,10 @@ server:
   master_builders: []
 
   # URL players should appeal for bans at
-  ban_url: http://unraveledmc.com/forum/
+  ban_url: http://redcrafted.com/forums/index.php
 
   # URL players should appeal for permanent bans at
-  permban_url: http://unraveledmc.com/forum/
+  permban_url: http://redcrafted.com/forums/index.php
   
 # Shown at the server list
 motd:
@@ -52,10 +47,10 @@ motd:
   colorful_motd: true
 
   # What shows up on line 1
-  line_one: '&lUnraveledMC &l- &lFree &lOP'
+  line_one: '&c&lRed&8&lCrafted &7&l- &c&lFreedom&8&lOP'
   
   # What shows up on line 2
-  line_two: 'Running on %mcversion%'  
+  line_two: '&c&oIntutiative OP server for Minecraft'  
 
 # The discord bot self verification system
 verification:
@@ -75,7 +70,7 @@ shop:
   enabled: true
   
   # Shop prefix
-  prefix: '&7&l[&8&lUMC Shop&7&l]'
+  prefix: '&7&l[&c&lRMC &8&lShop&7&l]'
   
   # How much should the price be for buying colored chat
   colored_chat_price: 50
@@ -96,8 +91,8 @@ shop:
 admins:
   # Message to display to admins when they login (supports color codes and is multiple line)
   admin_login_message:
-    - '&2Welcome back admin!'
-    - '&cBe sure to keep an eye on the ops!'
+    - '&6Welcome back to &c&lRed&8&lCrafted'
+    - '&6Please be sure to administrate with maturity'
   
   # Admin list
   adminlist:
@@ -348,30 +343,29 @@ announcer:
   interval: 600
 
   # Prefix for all announcements
-  prefix: '&e&l[&7&lUnraveled&8&lMC&e&l] &6&l>> &e&l'
+  prefix: '&7&l[&c&lRed&8&lCrafted&7&l] &6&l>> &e&l'
 
   announcements:
-    - 'If you want to apply for Super Admin, just do /ai! It gives you all information needed.'
-    - 'Be sure to visit our forums at &6http://unraveledmc.com/forum/'
-    - 'You can always review the server rules here: &6http://unraveledmc.com/forum/'
+    - 'Super Admin application information can be found using /application'
+    - 'Be sure to visit our forums at &6http://redcrafted.com/forums/index.php'
+    - 'You can always review the server rules here: &6http://redcrafted.com/forums/index.php'
     - 'If you are not OP, be sure to ask!'
     - 'Somebody breaking the rules? Report it! /report <user> <reason>'
     - 'Griefing is not allowed!'
     - 'Hacked clients are allowed!'
-    - 'Interested in becoming admin? Do "/ai" for more information!'
     - 'You may view all online administrators via "/list -a"'
-    - 'Save your buildings via WorldEdit! http://unraveledmc.com/forum/ for more information!'
+    - 'Save your buildings via WorldEdit! &6http://redcrafted.com/forums/index.php &e&lfor more information!'
     - 'Famous players, such as Notch, are always fake! We are an offline/cracked server!'
-    - 'aggelosQQ, AwesomePinch, and CreeperSeth are the owners of UnraveledMC.'
+    - 'RedEastWood and  are the owners of RedCrafted.'
     - 'Server lagging?  Check the lag via "/tps"'
-    - 'You are allowed to record and stream videos on UnraveledMC.'
+    - 'You are allowed to record and stream videos on RedCrafted.'
     - 'Player vs player while in creative or god mode it forbidden!'
     - 'Spawn killing is forbidden!'
     - 'Invisible potions are allowed!'
     - 'Serial griefing and trolling will result in a permanent ban!'
-    - 'UnraveledMC does not accept any form of donations!'
+    - 'RedCrafted currently does not accept any form of donations!'
     - 'Racism, nazism, and sexism are strictly forbidden!'
-    - 'You can apply for master builder at http://unraveledmc.com/forum/'
+    - 'You can apply for master builder at &6http://redcrafted.com/forums/index.php'
     - 'Ever see players with colored chat and custom login messages? You can get them by doing /shop!'
     - 'Vote for us to receive &6&l5 Coins&a&l! &b&l/vote'
 
